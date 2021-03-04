@@ -11,9 +11,9 @@ struct node
 {
     char data;
     struct node *nextPtr;
-};
+}; // ทำ linklisted สำหรับnode่ใหม่
 
 typedef struct node Node;
-typedef struct node* NodePtr;
+typedef struct node *NodePtr;
 
 #endif
